@@ -84,6 +84,8 @@ alias of:N*T*Cmediatek,mt6589-i2c i2c_mt65xx
 alias of:N*T*Cmediatek,mt6589-i2cC* i2c_mt65xx
 alias of:N*T*Cmediatek,mt6873-i2c i2c_mt65xx
 alias of:N*T*Cmediatek,mt6873-i2cC* i2c_mt65xx
+alias of:N*T*Cmediatek,mt6873-i2c-fifo i2c_mt65xx
+alias of:N*T*Cmediatek,mt6873-i2c-fifoC* i2c_mt65xx
 alias of:N*T*Cmediatek,mt6879-i2c i2c_mt65xx
 alias of:N*T*Cmediatek,mt6879-i2cC* i2c_mt65xx
 alias of:N*T*Cmediatek,mt6983-i2c i2c_mt65xx
@@ -148,11 +150,16 @@ alias of:N*T*Cmediatek,mtk_ctd mtk_chg_type_det
 alias of:N*T*Cmediatek,mtk_ctdC* mtk_chg_type_det
 alias of:N*T*Csouthchip,sc8950 sc8950
 alias of:N*T*Csouthchip,sc8950C* sc8950
+alias of:N*T*Cgoodix,gt9897 gt9916_common
+alias of:N*T*Cgoodix,gt9897C* gt9916_common
+alias of:N*T*Cgoodix,gt9966 gt9916_common
+alias of:N*T*Cgoodix,gt9966C* gt9916_common
+alias of:N*T*Cgoodix,gt9916 gt9916_common
+alias of:N*T*Cgoodix,gt9916C* gt9916_common
+alias i2c:gtx8_i2c gt9916_common
+alias platform:goodix_ts gt9916_common
 alias of:N*T*Cmediatek,charger,pe2 mtk_pep20
 alias of:N*T*Cmediatek,charger,pe2C* mtk_pep20
-alias of:N*T*Cfocaltech,fts transsion_touch
-alias of:N*T*Cfocaltech,ftsC* transsion_touch
-alias platform:goodix_ts transsion_touch
 alias of:N*T*Cmediatek,mtk-bp-thl mtk_bp_thl
 alias of:N*T*Cmediatek,mtk-bp-thlC* mtk_bp_thl
 alias platform:mt6369-regulator mt6369_regulator
@@ -188,6 +195,8 @@ alias of:N*T*Cmediatek,mt6761-disp-pwm pwm_mtk_disp
 alias of:N*T*Cmediatek,mt6761-disp-pwmC* pwm_mtk_disp
 alias of:N*T*Cmediatek,mt6739-disp-pwm pwm_mtk_disp
 alias of:N*T*Cmediatek,mt6739-disp-pwmC* pwm_mtk_disp
+alias of:N*T*Cmediatek,mt6885-disp-pwm pwm_mtk_disp
+alias of:N*T*Cmediatek,mt6885-disp-pwmC* pwm_mtk_disp
 alias of:N*T*Ctranssion,_usb_control tran_usb_ctrl
 alias of:N*T*Ctranssion,_usb_controlC* tran_usb_ctrl
 alias of:N*T*Cvtdr6126,fhdp,dsi,vdo,csot,x6852 vtdr6126_fhdp_dsi_vdo_csot_120hz_x6852
@@ -243,6 +252,8 @@ alias of:N*T*Cmediatek,extcon-usb extcon_mtk_usb
 alias of:N*T*Cmediatek,extcon-usbC* extcon_mtk_usb
 alias of:N*T*Cmediatek,usb_meta meta
 alias of:N*T*Cmediatek,usb_metaC* meta
+alias of:N*T*Cmediatek,mt6363-lvsys-notify pmic_lvsys_notify
+alias of:N*T*Cmediatek,mt6363-lvsys-notifyC* pmic_lvsys_notify
 alias of:N*T*Crichtek,rfc_ta rfc_ta
 alias of:N*T*Crichtek,rfc_taC* rfc_ta
 alias i2c:rfc_ta rfc_ta

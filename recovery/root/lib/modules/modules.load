@@ -42,7 +42,6 @@ spmi-mtk-pmif.ko
 mt6363-regulator.ko
 mt6369-regulator.ko
 et5904.ko
-devinfo.ko
 mtk-smi.ko
 mtk-smi-dbg.ko
 mtk-icc-core.ko
@@ -61,7 +60,9 @@ cmdq-platform-mt6855.ko
 cmdq_helper_inf.ko
 rt4831a_drv.ko
 mtk-mml.ko
+devinfo.ko
 mtk_panel_ext.ko
+vtdr6126_fhdp_dsi_vdo_csot_120hz_x6852.ko
 mediatek-drm.ko
 aee_rs.ko
 mmprofile.ko
@@ -78,6 +79,7 @@ regmap-spmi.ko
 cqhci.ko
 mtk-mmc-autok.ko
 mtk-mmc-dbg.ko
+tran-proc-bootdevice-mod.ko
 mtk-mmc.ko
 phy-mtk-ufs.ko
 rpmb.ko
@@ -161,6 +163,7 @@ mtk-dvfsrc-helper.ko
 mtk-dvfsrc-devfreq.ko
 clk-chk-mt6855.ko
 pmic_lbat_service.ko
+pmic_lvsys_notify.ko
 reset-ti-syscon.ko
 mtk_slbc.ko
 vcp_status.ko
