@@ -18,3 +18,7 @@ TARGET_RECOVERY_DEVICE_MODULES := libinit_Infinix-X6852
 
 # TWRP Configs
 TW_DEVICE_VERSION := X6852_kelvin
+
+# Vendor modules
+TW_LOAD_VENDOR_BOOT_MODULES := true
+
